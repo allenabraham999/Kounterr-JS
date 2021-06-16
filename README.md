@@ -8,7 +8,5 @@ git clone https://github.com/allenabraham999/Kounterr-JS.git
 To run the bot use the commands
 ```
 npm install
-```
-```
 node index.js
 ```
