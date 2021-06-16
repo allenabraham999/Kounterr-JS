@@ -46,6 +46,12 @@ getString = (k) => {
   return text;
 };
 
+bot.onText(/\/delete (.+)/,(msg,match)=>{
+  console.log("To be deleted");
+  console.log(match[1]);
+  delete kount[match[1]];
+});
+
 bot.onText(/\/stats (.+)/, (msg, match) => {
   const chatId = msg.chat.id;
   if (Object.keys(kount).includes(match[1])) {
