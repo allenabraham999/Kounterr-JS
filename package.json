@@ -9,6 +9,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "^0.53.0"
-  }
+    "node-telegram-bot-api": "^0.53.0",
+    "superhero-name-library": "^1.2.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allenabraham999/Kounterr-JS.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/allenabraham999/Kounterr-JS/issues"
+  },
+  "homepage": "https://github.com/allenabraham999/Kounterr-JS#readme"
 }
