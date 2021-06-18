@@ -16,7 +16,8 @@ npm install
 node index.js
 ```
 
-Commands
+Commands Available.
 ```
 /add -Add a particular word.
 /stats -Show the count of times a word has been used by each group member.
+/delete - Delete a particular word
