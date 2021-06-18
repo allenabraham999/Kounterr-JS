@@ -1,6 +1,6 @@
 const TelegramBot = require("node-telegram-bot-api");
 const { messageTypes } = require("node-telegram-bot-api/src/telegram");
-const token = "1882108290:AAFf13UhDmLO1cqx6O4Xp2sioyzHYUzjoUg";
+const token = "AddTokenHere";
 const bot = new TelegramBot(token, { polling: true });
 
 //main object containing the word and the count of people using it.
